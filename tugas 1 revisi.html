@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil Biodata</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    /* Section 1: Menu */
+    .menu {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+    .menu a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    /* Section 2: Judul dan Gambar */
+    .hero-table {
+      width: 100%;
+      background-color: #e0f7fa;
+      padding: 30px;
+    }
+    .hero-table td {
+      vertical-align: top;
+      padding: 10px;
+    }
+    .hero-image {
+      width: 600px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    /* Section 3: Biodata */
+    .biodata {
+      width: 100%;
+      padding: 20px;
+      background-color: #ffffff;
+    }
+    .biodata-table {
+      width: 100%;
+      text-align: left;
+      border-collapse: collapse;
+    }
+    .biodata-table td {
+      border: 1px solid #ccc;
+      padding: 15px;
+      width: 33%;
+    }
+    /* Section 4: Portofolio */
+    .portfolio {
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .portfolio h2 {
+      margin-bottom: 20px;
+    }
+    .portfolio-table {
+      width: 100%;
+      text-align: center;
+    }
+    .portfolio-table td {
+      padding: 10px;
+    }
+    .portfolio-img {
+      width: 350px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section 1: Menu -->
+  <div class="menu">
+    <a href="#">Beranda</a>
+    <a href="#">Tentang Saya</a>
+    <a href="#">Portofolio</a>
+    <a href="#">Kontak</a>
+  </div>
+
+  <!-- Section 2: Judul di Kiri dan Gambar di Kanan -->
+  <table class="hero-table">
+    <tr>
+      <td>
+        <h1>Selamat Datang di Website Saya</h1>
+        <p>Halo, saya adalah web developer yang bersemangat menciptakan solusi digital.</p>
+      </td>
+      <td>
+        <img src="foto.jpg" alt="Foto Profil" class="hero-image">
+      </td>
+    </tr>
+  </table>
+
+  <!-- Section 3: Biodata 6 Box -->
+  <div class="biodata">
+    <h2>Biodata</h2>
+    <table class="biodata-table">
+      <tr>
+        <td><strong>Nama:</strong> Indah Rekamitah</td>
+        <td><strong>Pendidikan:</strong> S1 Pendidikan Bahasa Inggris</td>
+        <td><strong>Pekerjaan:</strong> Guru</td>
+      </tr>
+      <tr>
+        <td><strong>Contact:</strong> 081341521498</td>
+        <td><strong>Hobi:</strong> Videografi & Coding</td>
+        <td><strong>Alamat:</strong> Jl. Imbara 1, Palopo, Sulsel</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Section 4: Portofolio -->
+  <div class="portfolio">
+    <h2>Portofolio</h2>
+    <table class="portfolio-table">
+      <tr>
+        <td>
+          <img src="project1.jpg" alt="Project 1" class="portfolio-img">
+          <p>Website Sekolah</p>
+        </td>
+        <td>
+          <img src="project2.jpg" alt="Project 2" class="portfolio-img">
+          <p>Aplikasi Toko Online</p>
+        </td>
+        <td>
+          <img src="project3.jpg" alt="Project 3" class="portfolio-img">
+          <p>Website Belajar Bahasa Inggris</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
